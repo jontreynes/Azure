@@ -54,9 +54,7 @@ $roles | ConvertTo-Json | Write-Host
 
 Write-Host "_________________________________________________________________________________"
 Write-Host "ACTIONS: Once complete, "
-Write-Host "1) copy and paste the json within the appRoles attribute"
-Write-Host "2) task IAM to..."
-Write-Host "Add groups to the application. Please input the values for each *display name* and *role assigned* respectively '"
+Write-Host "1) copy and paste the json within the appRoles attribute of the application registration manifest in Azure AD"
 
 foreach ($g in $groups) {
     Write-Host $g
