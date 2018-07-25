@@ -13,6 +13,9 @@
     },
     "nsgId": {
       "type": "string"
+    },
+    "routeTableId":{
+      "type": "string"
     }
   },
   "variables": {},
@@ -26,7 +29,10 @@
         "addressPrefix": "[parameters('subnetAddressPrefix')]",
         "networkSecurityGroup": {
           "id": "[parameters('nsgId')]"
-        }
+        },
+        "routeTable": {
+          "id": "[parameters('routeTableId')]"
+        } 
       }
     }
   ]
