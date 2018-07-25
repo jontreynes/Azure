@@ -29,10 +29,7 @@
         "addressPrefix": "[parameters('subnetAddressPrefix')]",
         "networkSecurityGroup": {
           "id": "[parameters('nsgId')]"
-        },
-        "routeTable": {
-          "id": "[parameters('routeTableId')]"
-        } 
+        }
       }
     }
   ]
