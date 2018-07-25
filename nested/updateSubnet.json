@@ -14,10 +14,6 @@
     "nsgId": {
       "type": "string"
     }
-    //,
-    //"routeTableId":{
-    //  "type": "string"
-   // }
   },
   "variables": {},
   "resources": [
