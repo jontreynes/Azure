@@ -13,11 +13,12 @@
     },
     "nsgId": {
       "type": "string"
-    },
-    "routeTableId":{
-      "type": "string"
     }
-  },
+    //,
+    //"routeTableId":{
+    //  "type": "string"
+   // }
+  //},
   "variables": {},
   "resources": [
     {
